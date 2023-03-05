@@ -28,10 +28,10 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   void fetchTransactions() async {
-    const url = 'http://192.168.9.96:8081/api/order';
+    const url = 'http://192.168.1.12:8081/api/order';
     print('fetching transactions');
     final response = await http.get(Uri.parse(url));
-    // print('response: $response');
+    print('response: $response');
     if (response.statusCode == 200) {
       try {
         final data = jsonDecode(response.body);
