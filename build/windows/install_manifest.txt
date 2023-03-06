@@ -1,0 +1,10 @@
+C:/Users/gliou/OneDrive/Documents/Projects_Flutter/micro_service_flutter/build/windows/runner/Debug/data/icudtl.dat
+C:/Users/gliou/OneDrive/Documents/Projects_Flutter/micro_service_flutter/build/windows/runner/Debug/flutter_windows.dll
+C:/Users/gliou/OneDrive/Documents/Projects_Flutter/micro_service_flutter/build/windows/runner/Debug/data/flutter_assets/AssetManifest.json
+C:/Users/gliou/OneDrive/Documents/Projects_Flutter/micro_service_flutter/build/windows/runner/Debug/data/flutter_assets/FontManifest.json
+C:/Users/gliou/OneDrive/Documents/Projects_Flutter/micro_service_flutter/build/windows/runner/Debug/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+C:/Users/gliou/OneDrive/Documents/Projects_Flutter/micro_service_flutter/build/windows/runner/Debug/data/flutter_assets/kernel_blob.bin
+C:/Users/gliou/OneDrive/Documents/Projects_Flutter/micro_service_flutter/build/windows/runner/Debug/data/flutter_assets/NOTICES
+C:/Users/gliou/OneDrive/Documents/Projects_Flutter/micro_service_flutter/build/windows/runner/Debug/data/flutter_assets/NOTICES.Z
+C:/Users/gliou/OneDrive/Documents/Projects_Flutter/micro_service_flutter/build/windows/runner/Debug/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+C:/Users/gliou/OneDrive/Documents/Projects_Flutter/micro_service_flutter/build/windows/runner/Debug/data/flutter_assets/shaders/ink_sparkle.frag

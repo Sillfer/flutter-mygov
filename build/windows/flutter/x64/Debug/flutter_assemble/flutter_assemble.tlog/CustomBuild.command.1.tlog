@@ -1,0 +1,28 @@
+^C:\USERS\GLIOU\ONEDRIVE\DOCUMENTS\PROJECTS_FLUTTER\MICRO_SERVICE_FLUTTER\BUILD\WINDOWS\CMAKEFILES\924264451B400C6291F2690B2AE7893A\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\gliou\OneDrive\Documents\FlutterDev\flutter PROJECT_DIR=C:\Users\gliou\OneDrive\Documents\Projects_Flutter\micro_service_flutter FLUTTER_ROOT=C:\Users\gliou\OneDrive\Documents\FlutterDev\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\gliou\OneDrive\Documents\Projects_Flutter\micro_service_flutter\windows\flutter\ephemeral PROJECT_DIR=C:\Users\gliou\OneDrive\Documents\Projects_Flutter\micro_service_flutter FLUTTER_TARGET=C:\Users\gliou\OneDrive\Documents\Projects_Flutter\micro_service_flutter\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\gliou\OneDrive\Documents\Projects_Flutter\micro_service_flutter\.dart_tool\package_config.json C:/Users/gliou/OneDrive/Documents/FlutterDev/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GLIOU\ONEDRIVE\DOCUMENTS\PROJECTS_FLUTTER\MICRO_SERVICE_FLUTTER\BUILD\WINDOWS\CMAKEFILES\CF2B3AAD045B16701355DE40FE915653\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GLIOU\ONEDRIVE\DOCUMENTS\PROJECTS_FLUTTER\MICRO_SERVICE_FLUTTER\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/gliou/OneDrive/Documents/Projects_Flutter/micro_service_flutter/windows -BC:/Users/gliou/OneDrive/Documents/Projects_Flutter/micro_service_flutter/build/windows --check-stamp-file C:/Users/gliou/OneDrive/Documents/Projects_Flutter/micro_service_flutter/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

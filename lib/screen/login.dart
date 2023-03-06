@@ -54,7 +54,7 @@ class _SignInState extends State<SignIn> {
             child: TextField(
               controller: passController,
               obscureText: isPassword,
-              decoration: const InputDecoration(
+              decoration: InputDecoration(
                   border: InputBorder.none,
                   fillColor: Color(0xfff3f3f4),
                   filled: true),
