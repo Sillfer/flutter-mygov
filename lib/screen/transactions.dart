@@ -1,5 +1,4 @@
 import 'dart:convert';
-import 'package:intl/intl.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
@@ -12,10 +11,9 @@ class TransactionsPage extends StatefulWidget {
 
 class _TransactionsPageState extends State<TransactionsPage> {
   dynamic data;
-
   void _search() {
     var url = Uri.parse(
-        'http://192.168.1.12:8081/api/order'); // always check the url is correct
+        'http://192.168.9.96:8081/api/order'); // always check the url is correct
     http.get(url).then((response) {
       setState(() {
         data = jsonDecode(response.body);

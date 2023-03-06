@@ -9,25 +9,25 @@ class SignIn extends StatefulWidget {
 }
 
 class _SignInState extends State<SignIn> {
-  TextEditingController emailController = new TextEditingController();
-  TextEditingController passController = new TextEditingController();
+  TextEditingController emailController = TextEditingController();
+  TextEditingController passController = TextEditingController();
 
   Widget _entryEmailField(String title) {
     return Container(
-      margin: EdgeInsets.symmetric(vertical: 10),
+      margin: const EdgeInsets.symmetric(vertical: 10),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           Text(
             title,
-            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15),
+            style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 15),
           ),
-          SizedBox(
+          const SizedBox(
             height: 10,
           ),
           TextField(
               controller: emailController,
-              decoration: InputDecoration(
+              decoration: const InputDecoration(
                   border: InputBorder.none,
                   fillColor: Color(0xfff3f3f4),
                   filled: true))
@@ -38,15 +38,15 @@ class _SignInState extends State<SignIn> {
 
   Widget _entryPasswordField(String title, {bool isPassword = false}) {
     return Container(
-      margin: EdgeInsets.symmetric(vertical: 20),
+      margin: const EdgeInsets.symmetric(vertical: 20),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           Text(
             title,
-            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15),
+            style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 15),
           ),
-          SizedBox(
+          const SizedBox(
             height: 10,
           ),
           //name textfield
@@ -54,7 +54,7 @@ class _SignInState extends State<SignIn> {
             child: TextField(
               controller: passController,
               obscureText: isPassword,
-              decoration: InputDecoration(
+              decoration: const InputDecoration(
                   border: InputBorder.none,
                   fillColor: Color(0xfff3f3f4),
                   filled: true),
@@ -91,8 +91,8 @@ class _SignInState extends State<SignIn> {
                 print(emailController);
                 print(passController);
 
-                if (emailController.text == "admin@gmail.com" &&
-                    passController.text == "123") {
+                if (emailController.text == "agent@gmail.com" &&
+                    passController.text == "12345") {
                   //Or put here your next screen using Navigator.push() method
                   Navigator.push(
                       context,
